@@ -16,3 +16,7 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
+
+function message_sent() {
+  alert("Thank You for Your FeedBack !");
+}
